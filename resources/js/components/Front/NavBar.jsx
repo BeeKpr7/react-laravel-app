@@ -119,10 +119,6 @@ export default function NavBar() {
     useEffect(() => {
         setIsVisible(scrollDirection === "down");
     }, [scrollDirection]);
-
-    console.log(scrollDirection);
-    console.log(isVisible);
-    console.log(scrollY);
     return (
         <Popover
             className="fixed top-0 left-0 right-0 z-10 bg-white border-b-2"
